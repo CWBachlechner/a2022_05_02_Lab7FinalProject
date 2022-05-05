@@ -1,7 +1,7 @@
-package com.example.k2022_04_22_lab7.models.questions
+package com.example.a2022_05_02_Lab7FinalProject.models.questions
 
 class AllQuestions {
-    private val allQuestions = mutableListOf<Question>()
+    var allQuestions = mutableListOf<Question>()
 
     fun addQuestion(question: Question) {
         allQuestions.add(question)
